@@ -68,6 +68,11 @@ video{
     border-radius: 50%;
     padding: 30px;
 }
+.sound-picker button:focus{
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 0 2pt black;
+}
 
 .sound-picker button:nth-child(1){
     background:#4972a1 ;
